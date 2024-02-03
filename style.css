@@ -51,6 +51,7 @@ ul {
     flex: 1;
     border: 2px solid black;
     background-color: #AAD7D9;
+    padding: 10px;
 }  
 
 .flex-child:first-child {
