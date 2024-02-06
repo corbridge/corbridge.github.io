@@ -52,6 +52,7 @@ ul {
     border: 2px solid black;
     background-color: #AAD7D9;
     padding: 10px;
+    text-align: center;
 }  
 
 .flex-child:first-child:not(.not-background){
@@ -82,4 +83,10 @@ p{
 
 .experience-div{
     text-align: center;
+    padding:30px;
+}
+
+.skills{
+    text-align: center;
+    padding:30px;
 }
