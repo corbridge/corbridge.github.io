@@ -16,6 +16,8 @@ header{
 
 .navbar{
     text-align: center;
+    position: sticky;
+    top:0px;
 }
 
 ul {
@@ -44,7 +46,8 @@ ul {
   }
 
 .who-flex-container {
-    display: flex;
+    text-align: center;
+    padding:30px;
 }
 
 .flex-child {
@@ -89,4 +92,52 @@ p{
 .skills{
     text-align: center;
     padding:30px;
+}
+
+#languages{
+    width:100px;
+    height:100px;
+}
+
+#languages-big{
+    width:170px;
+    height:100px;
+}
+
+#languages-js{
+    width:200px;
+    height:100px;
+}
+
+.separation{
+    width:50px;
+    height:100px;
+}
+
+.separation-smaller{
+    width:10px;
+    height:100px;
+}
+
+.separation-small{
+    width:25px;
+    height:100px;
+}
+
+.first-separation{
+    width:350px;
+    height:100px;
+}
+
+.display-skills{
+    display:flex;
+}
+
+.center-paragraph{
+    text-align:center;
+}
+
+.separation-div{
+    width:25px;
+    height:70px;
 }
