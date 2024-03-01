@@ -169,3 +169,22 @@ p{
     width:25px;
     height:70px;
 }
+
+.type-project-university{
+    display: inline-block;
+    background-color: #A9C8E9; /* Light gray background */
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Add some space between the box and the title */
+}
+.type-project-side{
+    display: inline-block;
+    background-color: #47ee92; /* Light gray background */
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Add some space between the box and the title */
+}
+
+.project-title{
+    font-weight: normal;
+}
