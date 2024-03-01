@@ -2,7 +2,7 @@ body{
     background-color: #FBF9F1;
 }
 
-h1, h2{
+h1, h2, h3, h4{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
@@ -48,6 +48,34 @@ ul {
 .who-flex-container {
     text-align: center;
     padding:30px;
+}
+
+#portfolio-title{
+    text-align: center;
+}
+
+.portfolio{
+    padding:30px;
+}
+
+.content-portfolio{
+    display:flex;
+    align-items: flex-start;
+}
+
+.info{
+    flex:1;
+}
+
+.pic{
+    flex:1;
+    padding:50px;
+}
+
+.portfolio-img{
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
 }
 
 .flex-child {
