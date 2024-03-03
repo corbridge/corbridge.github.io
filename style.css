@@ -1,0 +1,190 @@
+body{
+    background-color: #FBF9F1;
+}
+
+h1, h2, h3, h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header{
+    text-align: center;
+    background-color: #92C7CF;
+    padding: 80px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.navbar{
+    text-align: center;
+    position: sticky;
+    top:0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E5E1DA;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  li a:hover {
+    background-color: #C2BEBD;
+  }
+
+.who-flex-container {
+    text-align: center;
+    padding:30px;
+}
+
+#portfolio-title{
+    text-align: center;
+}
+
+.portfolio{
+    padding:30px;
+}
+
+.content-portfolio{
+    display:flex;
+    align-items: flex-start;
+}
+
+.info{
+    flex:1;
+}
+
+.pic{
+    flex:1;
+    padding:50px;
+}
+
+.portfolio-img{
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid black;
+    background-color: #AAD7D9;
+    padding: 10px;
+    text-align: center;
+}  
+
+.flex-child:first-child:not(.not-background){
+    margin-right: 20px;
+} 
+
+.not-background{
+    background-color: #FBF9F1;
+    border: none;
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    text-align: justify;
+    line-height: 25px;
+}
+
+#myself{
+    width:300px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+    border:2px solid black;
+}
+
+.experience-div{
+    text-align: center;
+    padding:30px;
+}
+
+.skills{
+    text-align: center;
+    padding:30px;
+}
+
+#languages{
+    width:100px;
+    height:100px;
+}
+
+#languages-big{
+    width:170px;
+    height:100px;
+}
+
+#languages-js{
+    width:200px;
+    height:100px;
+}
+
+.separation{
+    width:50px;
+    height:100px;
+}
+
+.separation-smaller{
+    width:10px;
+    height:100px;
+}
+
+.separation-small{
+    width:25px;
+    height:100px;
+}
+
+.first-separation{
+    width:350px;
+    height:100px;
+}
+
+.display-skills{
+    display:flex;
+}
+
+.center-paragraph{
+    text-align:center;
+}
+
+.separation-div{
+    width:25px;
+    height:70px;
+}
+
+.type-project-university{
+    display: inline-block;
+    background-color: #A9C8E9; /* Light gray background */
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Add some space between the box and the title */
+}
+.type-project-side{
+    display: inline-block;
+    background-color: #47ee92; /* Light gray background */
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Add some space between the box and the title */
+}
+
+.project-title{
+    font-weight: normal;
+}
